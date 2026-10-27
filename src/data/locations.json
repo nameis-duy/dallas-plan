@@ -1,0 +1,178 @@
+[
+  {
+    "id": "location-day-2026-10-30-activity-01",
+    "name": "Villa C39 An Sơn Đà Lạt",
+    "sourceText": "Villa C39 An Sơn Đà Lạt\nCheck in: 06:00 30/10\nCheck out: 12:00 02/11\n4N3Đ",
+    "address": null,
+    "type": "accommodation",
+    "mapUrl": "https://maps.app.goo.gl/rKh5jdPdm1SFFYKQ7?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-30-activity-01"]
+  },
+  {
+    "id": "location-day-2026-10-30-activity-03",
+    "name": "Bò tơ Dã Chiến - Hùng Bò",
+    "sourceText": "Bò tơ Dã Chiến - Hùng Bò\n116 Hùng Vương, Xuân Trường",
+    "address": "116 Hùng Vương, Xuân Trường",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/H2u7uxbyrkAmzn3K6?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-30-activity-03"]
+  },
+  {
+    "id": "location-day-2026-10-30-activity-05",
+    "name": "Tiệm nướng Mậu Dịch",
+    "sourceText": "Tiệm nướng Mậu Dịch\n9 Thửa 472 - TĐB 72B Huỳnh Tấn Phát",
+    "address": "9 Thửa 472 - TĐB 72B Huỳnh Tấn Phát",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/euBzkhHkn2Qeju6w5?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-30-activity-05"]
+  },
+  {
+    "id": "location-day-2026-10-30-activity-06",
+    "name": "Quán nhậu Huyền Diệu",
+    "sourceText": "Quán nhậu Huyền Diệu\n16B Hoàng Văn Thụ",
+    "address": "16B Hoàng Văn Thụ",
+    "type": "attraction",
+    "mapUrl": "https://maps.app.goo.gl/X4ehUA52TnPr6rMR9?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-30-activity-06"]
+  },
+  {
+    "id": "location-day-2026-10-31-activity-01",
+    "name": "Bánh căn - Bánh mì xíu mại bé Hoa III",
+    "sourceText": "Bánh căn - Bánh mì xíu mại bé Hoa III\n36 Trần Nhật Duật",
+    "address": "36 Trần Nhật Duật",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/vrV3iQ6wwFvxp8My5?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-31-activity-01"]
+  },
+  {
+    "id": "location-day-2026-10-31-activity-02",
+    "name": "Dinh III Bảo Đại",
+    "sourceText": "Dinh III Bảo Đại\n1 Triệu Việt Vương",
+    "address": "1 Triệu Việt Vương",
+    "type": "attraction",
+    "mapUrl": null,
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-31-activity-02"]
+  },
+  {
+    "id": "location-day-2026-10-31-activity-03",
+    "name": "Mì nấm Shiitake",
+    "sourceText": "Mì nấm Shiitake\n67 Triệu Việt Vương",
+    "address": "67 Triệu Việt Vương",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/ciwXVLozEVipr1Ze9?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-31-activity-03"]
+  },
+  {
+    "id": "location-day-2026-10-31-activity-04",
+    "name": "KDL Cao Nguyên Hoa",
+    "sourceText": "KDL Cao Nguyên Hoa - 250k / vé\nXích đu, đua xe go kart",
+    "address": null,
+    "type": "attraction",
+    "mapUrl": "https://maps.app.goo.gl/xNRRzny1waweKEEt8?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-31-activity-04"]
+  },
+  {
+    "id": "location-day-2026-10-31-activity-07",
+    "name": "Chợ Đà Lạt, Tháp Vinaphone, Bánh tráng nướng, sữa đậu nành",
+    "sourceText": "Chợ Đà Lạt, Tháp Vinaphone, Bánh tráng nướng, sữa đậu nành",
+    "address": null,
+    "type": "food",
+    "mapUrl": null,
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-10-31-activity-07"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-02",
+    "name": "Đồi Đa Phú",
+    "sourceText": "Đồi Đa Phú",
+    "address": null,
+    "type": "attraction",
+    "mapUrl": "https://maps.app.goo.gl/y67FDMYqcEJvfh557?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-02"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-03",
+    "name": "Mì quảng Dì Út",
+    "sourceText": "Mì quảng Dì Út\n26/4 Lê Văn Tám",
+    "address": "26/4 Lê Văn Tám",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/1KK6hof5zikZT3jC9?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-03"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-04",
+    "name": "Canelés Dalat - since 2020",
+    "sourceText": "Canelés Dalat - since 2020",
+    "address": null,
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/tMiL7gRj4HFnGKeWA",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-04"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-05",
+    "name": "Miết Miết",
+    "sourceText": "Miết Miết\n3/4 Xuân Hương",
+    "address": "3/4 Xuân Hương",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/jcUb2Vzr1qcMGJsg8",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-05"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-06",
+    "name": "Đôi Đũa",
+    "sourceText": "Đôi Đũa\n96 Phù Đổng Thiên Vương",
+    "address": "96 Phù Đổng Thiên Vương",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/mHPjpmGCtCASiRA19",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-06"]
+  },
+  {
+    "id": "location-day-2026-11-01-activity-08",
+    "name": "Hap Hap Riverside Kitchen",
+    "sourceText": "Hap Hap Riverside Kitchen\nHẻm 4 Đặng Thái Thân",
+    "address": "Hẻm 4 Đặng Thái Thân",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/gPJ1UVrfQAoLZy4x5",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-01-activity-08"]
+  },
+  {
+    "id": "location-day-2026-11-02-activity-02",
+    "name": "Đậm Cafe",
+    "sourceText": "Đậm Cafe\n138 Yersin",
+    "address": "138 Yersin",
+    "type": "food",
+    "mapUrl": "https://maps.app.goo.gl/UuTonxYCdMfcDSww9?g_st=ipc",
+    "coordinates": null,
+    "coordinateEvidence": null,
+    "activityIds": ["day-2026-11-02-activity-02"]
+  }
+]

@@ -1,0 +1,125 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Install, extract, and test itinerary",
+			"type": "shell",
+			"command": "& 'C:\\Program Files\\nodejs\\npm.cmd' install; if ($LASTEXITCODE -eq 0) { & 'C:\\Program Files\\nodejs\\node.exe' scripts/import-sheet.mjs }; if ($LASTEXITCODE -eq 0) { & 'C:\\Program Files\\nodejs\\node.exe' --test tests/data.test.mjs }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build Dallas production app",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "build"
+		},
+		{
+			"label": "Repair Dallas dependencies",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js install --force --no-audit --no-fund",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Test Dallas data and packing state",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe --test tests/data.test.mjs tests/packing.test.mjs",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Vietnamese font and build",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js install --no-audit --no-fund; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Clean locked install and build Dallas",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js ci --no-audit --no-fund; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Validate conservative source mappings",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe scripts/import-sheet.mjs source/itinerary.csv; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe --test tests/data.test.mjs tests/packing.test.mjs }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Format Dallas source files",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js exec --yes --package=prettier -- prettier --write src scripts tests vite.config.js package.json index.html",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Install Dallas browser test runner",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js install -D @playwright/test --no-audit --no-fund",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Test Dallas browser workflows",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Retest itinerary browser source fidelity",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test --grep \"all source days\" --output test-results/itinerary-retest",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Retest itinerary browser mapping",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test --grep=all.source.days --output=test-results/itinerary-retest",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Retest gallery keyboard and touch",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test --grep=gallery.keyboard --output=test-results/gallery-retest",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Build and retest responsive journal",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test --grep=responsive.viewports --timeout=120000 --output=test-results/responsive-retest }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Final Dallas production and workflow checks",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe --test tests/data.test.mjs tests/packing.test.mjs }; if ($LASTEXITCODE -eq 0) { C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test --output=test-results/final }",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Inspect Dallas design findings",
+			"type": "shell",
+			"command": ".\\.cursor\\skills\\impeccable\\scripts\\impeccable.cmd detect --json src/App.jsx src/components/Itinerary.jsx src/components/TripMap.jsx src/components/Gallery.jsx src/components/PackingChecklist.jsx src/index.css",
+			"isBackground": false,
+			"problemMatcher": []
+		},
+		{
+			"label": "Format final Dallas implementation and docs",
+			"type": "shell",
+			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js exec --yes --package=prettier -- prettier --write src/App.jsx src/components/TripMap.jsx src/index.css tests playwright.config.js package.json README.md MIGRATION.md DESIGN.md .impeccable/design.json",
+			"isBackground": false,
+			"problemMatcher": []
+		}
+	]
+}

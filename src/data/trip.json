@@ -1,0 +1,21 @@
+{
+  "id": "saigon-dalat-2026",
+  "brand": "Dallas",
+  "sourceWorkbookTitle": "SaiGon - DaLat 29.10 - 02.11",
+  "sourceWorksheetTitle": "Copy of Lịch trình",
+  "sourceUrl": "https://docs.google.com/spreadsheets/d/1DIYOGjG6-t3a_IEDMYrNogYpEVgAGu3PLOLW0qXdGR4/edit?gid=493154924",
+  "destination": "Đà Lạt",
+  "origin": "Sài Gòn",
+  "startDate": "2026-10-29",
+  "endDate": "2026-11-02",
+  "travelers": 11,
+  "timezone": "Asia/Ho_Chi_Minh",
+  "introduction": "Từ Sài Gòn lên Đà Lạt. Những buổi cà phê thong thả, một sáng săn mây trên đồi Đa Phú, và thời gian bên nhau.",
+  "accommodation": {
+    "name": "Villa C39 An Sơn Đà Lạt",
+    "checkIn": "2026-10-30T06:00:00+07:00",
+    "checkOut": "2026-11-02T12:00:00+07:00",
+    "sourceDuration": "4N3Đ",
+    "locationId": "location-day-2026-10-30-activity-01"
+  }
+}

@@ -1,0 +1,579 @@
+[
+  {
+    "id": "day-2026-10-29",
+    "date": "2026-10-29",
+    "sourceLabel": "T5 29/10/2026",
+    "weekday": "T5",
+    "activities": [
+      {
+        "id": "day-2026-10-29-activity-01",
+        "sourceRow": 5,
+        "title": "Tập trung di chuyển SG - Đà Lạt",
+        "time": "23:00",
+        "endTime": null,
+        "sourceTime": "23h",
+        "place": "Tự lái",
+        "note": "Na x Di Fan",
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "23h",
+          "activity": "Tập trung di chuyển SG - Đà Lạt",
+          "place": "Tự lái",
+          "note": "Na x Di Fan"
+        }
+      },
+      {
+        "id": "day-2026-10-29-activity-02",
+        "sourceRow": 6,
+        "title": "Xe Trọng Phú Limousine - 23:30 xe chạy",
+        "time": null,
+        "endTime": null,
+        "sourceTime": null,
+        "place": "Xe Trọng Phú Limousine - 23:30 xe chạy\nĐiểm đón: Bến xe Miền Tây\nĐịa chỉ: 395 Kinh Dương Vương\nĐến: Bến Xe Liên Tỉnh Đà Lạt",
+        "note": "Joanathan và những người bạn",
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "",
+          "activity": "",
+          "place": "Xe Trọng Phú Limousine - 23:30 xe chạy\nĐiểm đón: Bến xe Miền Tây\nĐịa chỉ: 395 Kinh Dương Vương\nĐến: Bến Xe Liên Tỉnh Đà Lạt",
+          "note": "Joanathan và những người bạn"
+        }
+      }
+    ]
+  },
+  {
+    "id": "day-2026-10-30",
+    "date": "2026-10-30",
+    "sourceLabel": "T6 30/10/2026",
+    "weekday": "T6",
+    "activities": [
+      {
+        "id": "day-2026-10-30-activity-01",
+        "sourceRow": 9,
+        "title": "Check in",
+        "time": "06:00",
+        "endTime": null,
+        "sourceTime": "6h",
+        "place": "Villa C39 An Sơn Đà Lạt\nCheck in: 06:00 30/10\nCheck out: 12:00 02/11\n4N3Đ",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/rKh5jdPdm1SFFYKQ7?g_st=ipc"],
+        "locationId": "location-day-2026-10-30-activity-01",
+        "cost": null,
+        "source": {
+          "time": "6h",
+          "activity": "Check in",
+          "place": "Villa C39 An Sơn Đà Lạt\nCheck in: 06:00 30/10\nCheck out: 12:00 02/11\n4N3Đ",
+          "note": "https://maps.app.goo.gl/rKh5jdPdm1SFFYKQ7?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-30-activity-02",
+        "sourceRow": 10,
+        "title": "Freetime",
+        "time": "06:00",
+        "endTime": "12:00",
+        "sourceTime": "6h - 12h",
+        "place": "Làm việc / Ngủ nướng / Nhận xe VF5 / Cà phê",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "6h - 12h",
+          "activity": "Freetime",
+          "place": "Làm việc / Ngủ nướng / Nhận xe VF5 / Cà phê",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-30-activity-03",
+        "sourceRow": 11,
+        "title": "Ăn trưa",
+        "time": "12:00",
+        "endTime": null,
+        "sourceTime": "12h",
+        "place": "Bò tơ Dã Chiến - Hùng Bò\n116 Hùng Vương, Xuân Trường",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/H2u7uxbyrkAmzn3K6?g_st=ipc"],
+        "locationId": "location-day-2026-10-30-activity-03",
+        "cost": null,
+        "source": {
+          "time": "12h",
+          "activity": "Ăn trưa",
+          "place": "Bò tơ Dã Chiến - Hùng Bò\n116 Hùng Vương, Xuân Trường",
+          "note": "https://maps.app.goo.gl/H2u7uxbyrkAmzn3K6?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-30-activity-04",
+        "sourceRow": 12,
+        "title": "Cà phê",
+        "time": "13:00",
+        "endTime": "16:00",
+        "sourceTime": "13h - 16h",
+        "place": "Freetime",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "13h - 16h",
+          "activity": "Cà phê",
+          "place": "Freetime",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-30-activity-05",
+        "sourceRow": 13,
+        "title": "Ăn tối",
+        "time": "19:00",
+        "endTime": null,
+        "sourceTime": "19h",
+        "place": "Tiệm nướng Mậu Dịch\n9 Thửa 472 - TĐB 72B Huỳnh Tấn Phát",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/euBzkhHkn2Qeju6w5?g_st=ipc"],
+        "locationId": "location-day-2026-10-30-activity-05",
+        "cost": null,
+        "source": {
+          "time": "19h",
+          "activity": "Ăn tối",
+          "place": "Tiệm nướng Mậu Dịch\n9 Thửa 472 - TĐB 72B Huỳnh Tấn Phát",
+          "note": "https://maps.app.goo.gl/euBzkhHkn2Qeju6w5?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-30-activity-06",
+        "sourceRow": 14,
+        "title": "Nhậu ở nhà",
+        "time": "22:00",
+        "endTime": null,
+        "sourceTime": "22h",
+        "place": "Quán nhậu Huyền Diệu\n16B Hoàng Văn Thụ",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/X4ehUA52TnPr6rMR9?g_st=ipc"],
+        "locationId": "location-day-2026-10-30-activity-06",
+        "cost": null,
+        "source": {
+          "time": "22h",
+          "activity": "Nhậu ở nhà",
+          "place": "Quán nhậu Huyền Diệu\n16B Hoàng Văn Thụ",
+          "note": "https://maps.app.goo.gl/X4ehUA52TnPr6rMR9?g_st=ipc"
+        }
+      }
+    ]
+  },
+  {
+    "id": "day-2026-10-31",
+    "date": "2026-10-31",
+    "sourceLabel": "T7 31/10/2026",
+    "weekday": "T7",
+    "activities": [
+      {
+        "id": "day-2026-10-31-activity-01",
+        "sourceRow": 17,
+        "title": "Ăn sáng",
+        "time": "09:00",
+        "endTime": null,
+        "sourceTime": "9h",
+        "place": "Bánh căn - Bánh mì xíu mại bé Hoa III\n36 Trần Nhật Duật",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/vrV3iQ6wwFvxp8My5?g_st=ipc"],
+        "locationId": "location-day-2026-10-31-activity-01",
+        "cost": null,
+        "source": {
+          "time": "9h",
+          "activity": "Ăn sáng",
+          "place": "Bánh căn - Bánh mì xíu mại bé Hoa III\n36 Trần Nhật Duật",
+          "note": "https://maps.app.goo.gl/vrV3iQ6wwFvxp8My5?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-02",
+        "sourceRow": 18,
+        "title": "Đi chơi",
+        "time": "09:30",
+        "endTime": null,
+        "sourceTime": "9h30",
+        "place": "Dinh III Bảo Đại\n1 Triệu Việt Vương",
+        "note": null,
+        "links": [],
+        "locationId": "location-day-2026-10-31-activity-02",
+        "cost": null,
+        "source": {
+          "time": "9h30",
+          "activity": "Đi chơi",
+          "place": "Dinh III Bảo Đại\n1 Triệu Việt Vương",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-03",
+        "sourceRow": 19,
+        "title": "Ăn trưa",
+        "time": "12:00",
+        "endTime": null,
+        "sourceTime": "12h",
+        "place": "Mì nấm Shiitake\n67 Triệu Việt Vương",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/ciwXVLozEVipr1Ze9?g_st=ipc"],
+        "locationId": "location-day-2026-10-31-activity-03",
+        "cost": null,
+        "source": {
+          "time": "12h",
+          "activity": "Ăn trưa",
+          "place": "Mì nấm Shiitake\n67 Triệu Việt Vương",
+          "note": "https://maps.app.goo.gl/ciwXVLozEVipr1Ze9?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-04",
+        "sourceRow": 20,
+        "title": "Đi chơi",
+        "time": "14:00",
+        "endTime": null,
+        "sourceTime": "14h",
+        "place": "KDL Cao Nguyên Hoa - 250k / vé\nXích đu, đua xe go kart",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/xNRRzny1waweKEEt8?g_st=ipc"],
+        "locationId": "location-day-2026-10-31-activity-04",
+        "cost": {
+          "amount": 250000,
+          "currency": null,
+          "basis": "per-ticket",
+          "source": "250k / vé"
+        },
+        "source": {
+          "time": "14h",
+          "activity": "Đi chơi",
+          "place": "KDL Cao Nguyên Hoa - 250k / vé\nXích đu, đua xe go kart",
+          "note": "https://maps.app.goo.gl/xNRRzny1waweKEEt8?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-05",
+        "sourceRow": 21,
+        "title": "Nghỉ ngơi",
+        "time": "17:00",
+        "endTime": null,
+        "sourceTime": "17h",
+        "place": "Nghỉ ngơi / Spa - Gội đầu - Massaage",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "17h",
+          "activity": "Nghỉ ngơi",
+          "place": "Nghỉ ngơi / Spa - Gội đầu - Massaage",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-06",
+        "sourceRow": 22,
+        "title": "Ăn tối",
+        "time": "19:00",
+        "endTime": null,
+        "sourceTime": "19h",
+        "place": "Lẩu gà lá é",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "19h",
+          "activity": "Ăn tối",
+          "place": "Lẩu gà lá é",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-07",
+        "sourceRow": 23,
+        "title": "Ăn chiều",
+        "time": "20:00",
+        "endTime": null,
+        "sourceTime": "20h",
+        "place": "Chợ Đà Lạt, Tháp Vinaphone, Bánh tráng nướng, sữa đậu nành",
+        "note": null,
+        "links": [],
+        "locationId": "location-day-2026-10-31-activity-07",
+        "cost": null,
+        "source": {
+          "time": "20h",
+          "activity": "Ăn chiều",
+          "place": "Chợ Đà Lạt, Tháp Vinaphone, Bánh tráng nướng, sữa đậu nành",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-10-31-activity-08",
+        "sourceRow": 24,
+        "title": "Cocktail",
+        "time": "22:00",
+        "endTime": null,
+        "sourceTime": "22h",
+        "place": "420",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "22h",
+          "activity": "Cocktail",
+          "place": "420",
+          "note": ""
+        }
+      }
+    ]
+  },
+  {
+    "id": "day-2026-11-01",
+    "date": "2026-11-01",
+    "sourceLabel": "CN 01/11/2026",
+    "weekday": "CN",
+    "activities": [
+      {
+        "id": "day-2026-11-01-activity-01",
+        "sourceRow": 27,
+        "title": "Ò ó o",
+        "time": "03:30",
+        "endTime": null,
+        "sourceTime": "3h30",
+        "place": null,
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "3h30",
+          "activity": "Ò ó o",
+          "place": "",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-02",
+        "sourceRow": 28,
+        "title": "Đi săn mây",
+        "time": "04:00",
+        "endTime": null,
+        "sourceTime": "4h",
+        "place": "Đồi Đa Phú",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/y67FDMYqcEJvfh557?g_st=ipc"],
+        "locationId": "location-day-2026-11-01-activity-02",
+        "cost": null,
+        "source": {
+          "time": "4h",
+          "activity": "Đi săn mây",
+          "place": "Đồi Đa Phú",
+          "note": "https://maps.app.goo.gl/y67FDMYqcEJvfh557?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-03",
+        "sourceRow": 29,
+        "title": "Ăn sáng",
+        "time": "08:00",
+        "endTime": null,
+        "sourceTime": "8h",
+        "place": "Mì quảng Dì Út\n26/4 Lê Văn Tám",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/1KK6hof5zikZT3jC9?g_st=ipc"],
+        "locationId": "location-day-2026-11-01-activity-03",
+        "cost": null,
+        "source": {
+          "time": "8h",
+          "activity": "Ăn sáng",
+          "place": "Mì quảng Dì Út\n26/4 Lê Văn Tám",
+          "note": "https://maps.app.goo.gl/1KK6hof5zikZT3jC9?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-04",
+        "sourceRow": 30,
+        "title": "Mua bánh",
+        "time": "09:00",
+        "endTime": null,
+        "sourceTime": "9h",
+        "place": "Canelés Dalat - since 2020",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/tMiL7gRj4HFnGKeWA"],
+        "locationId": "location-day-2026-11-01-activity-04",
+        "cost": null,
+        "source": {
+          "time": "9h",
+          "activity": "Mua bánh",
+          "place": "Canelés Dalat - since 2020",
+          "note": "https://maps.app.goo.gl/tMiL7gRj4HFnGKeWA"
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-05",
+        "sourceRow": 31,
+        "title": "Cà phê",
+        "time": null,
+        "endTime": null,
+        "sourceTime": null,
+        "place": "Miết Miết\n3/4 Xuân Hương",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/jcUb2Vzr1qcMGJsg8"],
+        "locationId": "location-day-2026-11-01-activity-05",
+        "cost": null,
+        "source": {
+          "time": "",
+          "activity": "Cà phê",
+          "place": "Miết Miết\n3/4 Xuân Hương",
+          "note": "https://maps.app.goo.gl/jcUb2Vzr1qcMGJsg8"
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-06",
+        "sourceRow": 32,
+        "title": "Ăn trưa",
+        "time": "13:00",
+        "endTime": null,
+        "sourceTime": "13h",
+        "place": "Đôi Đũa\n96 Phù Đổng Thiên Vương",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/mHPjpmGCtCASiRA19"],
+        "locationId": "location-day-2026-11-01-activity-06",
+        "cost": null,
+        "source": {
+          "time": "13h",
+          "activity": "Ăn trưa",
+          "place": "Đôi Đũa\n96 Phù Đổng Thiên Vương",
+          "note": "https://maps.app.goo.gl/mHPjpmGCtCASiRA19"
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-07",
+        "sourceRow": 33,
+        "title": "Nghỉ ngơi",
+        "time": "15:00",
+        "endTime": null,
+        "sourceTime": "15h",
+        "place": null,
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "15h",
+          "activity": "Nghỉ ngơi",
+          "place": "",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-11-01-activity-08",
+        "sourceRow": 34,
+        "title": "Ăn tối",
+        "time": "17:00",
+        "endTime": null,
+        "sourceTime": "17h",
+        "place": "Hap Hap Riverside Kitchen\nHẻm 4 Đặng Thái Thân",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/gPJ1UVrfQAoLZy4x5"],
+        "locationId": "location-day-2026-11-01-activity-08",
+        "cost": null,
+        "source": {
+          "time": "17h",
+          "activity": "Ăn tối",
+          "place": "Hap Hap Riverside Kitchen\nHẻm 4 Đặng Thái Thân",
+          "note": "https://maps.app.goo.gl/gPJ1UVrfQAoLZy4x5"
+        }
+      }
+    ]
+  },
+  {
+    "id": "day-2026-11-02",
+    "date": "2026-11-02",
+    "sourceLabel": "T2 02/11/2026",
+    "weekday": "T2",
+    "activities": [
+      {
+        "id": "day-2026-11-02-activity-01",
+        "sourceRow": 38,
+        "title": "Ngủ nướng",
+        "time": null,
+        "endTime": null,
+        "sourceTime": null,
+        "place": "Ngủ nướng",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "",
+          "activity": "",
+          "place": "Ngủ nướng",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-11-02-activity-02",
+        "sourceRow": 39,
+        "title": "Cà phê",
+        "time": null,
+        "endTime": null,
+        "sourceTime": null,
+        "place": "Đậm Cafe\n138 Yersin",
+        "note": null,
+        "links": ["https://maps.app.goo.gl/UuTonxYCdMfcDSww9?g_st=ipc"],
+        "locationId": "location-day-2026-11-02-activity-02",
+        "cost": null,
+        "source": {
+          "time": "",
+          "activity": "Cà phê",
+          "place": "Đậm Cafe\n138 Yersin",
+          "note": "https://maps.app.goo.gl/UuTonxYCdMfcDSww9?g_st=ipc"
+        }
+      },
+      {
+        "id": "day-2026-11-02-activity-03",
+        "sourceRow": 40,
+        "title": "Check out",
+        "time": "12:00",
+        "endTime": null,
+        "sourceTime": "12h",
+        "place": "Check out + ăn trưa",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "12h",
+          "activity": "Check out",
+          "place": "Check out + ăn trưa",
+          "note": ""
+        }
+      },
+      {
+        "id": "day-2026-11-02-activity-04",
+        "sourceRow": 41,
+        "title": "Về nhà đi làm 🧑🏻‍💻👩🏻‍💻",
+        "time": null,
+        "endTime": null,
+        "sourceTime": null,
+        "place": "Về nhà đi làm 🧑🏻‍💻👩🏻‍💻",
+        "note": null,
+        "links": [],
+        "locationId": null,
+        "cost": null,
+        "source": {
+          "time": "",
+          "activity": "",
+          "place": "Về nhà đi làm 🧑🏻‍💻👩🏻‍💻",
+          "note": ""
+        }
+      }
+    ]
+  }
+]

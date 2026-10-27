@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "suggested": true,
+  "categories": [
+    {
+      "id": "documents",
+      "name": "Giấy tờ & ví",
+      "items": [
+        { "id": "identity", "label": "CCCD / giấy tờ tùy thân" },
+        { "id": "license", "label": "Giấy phép lái xe" },
+        { "id": "cash", "label": "Tiền mặt & thẻ ngân hàng" },
+        { "id": "bookings", "label": "Thông tin xe & nơi ở" }
+      ]
+    },
+    {
+      "id": "clothes",
+      "name": "Một chút ấm áp",
+      "items": [
+        { "id": "jacket", "label": "Áo khoác ấm" },
+        { "id": "outfits", "label": "Quần áo & đồ ngủ" },
+        { "id": "shoes", "label": "Giày đi bộ & tất" },
+        { "id": "rain", "label": "Ô / áo mưa gọn nhẹ" }
+      ]
+    },
+    {
+      "id": "personal",
+      "name": "Đồ dùng cá nhân",
+      "items": [
+        { "id": "toiletries", "label": "Bàn chải & đồ vệ sinh" },
+        { "id": "sunscreen", "label": "Kem chống nắng" },
+        { "id": "medicine", "label": "Thuốc cá nhân" },
+        { "id": "bottle", "label": "Bình nước" }
+      ]
+    },
+    {
+      "id": "electronics",
+      "name": "Luôn kết nối",
+      "items": [
+        { "id": "phone", "label": "Điện thoại & sạc" },
+        { "id": "powerbank", "label": "Pin dự phòng" },
+        { "id": "camera", "label": "Máy ảnh & thẻ nhớ" },
+        { "id": "headphones", "label": "Tai nghe" }
+      ]
+    }
+  ]
+}
