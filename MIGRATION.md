@@ -36,7 +36,7 @@ This is a four-column, sectioned planning sheet, not a flat conventional table:
 | Source rows      | Purpose                                                                                |
 | ---------------- | -------------------------------------------------------------------------------------- |
 | 1                | `LỊCH TRÌNH CHI TIẾT THEO NGÀY` heading                                                |
-| 2                | `Số lượng:` / `11` group metadata                                                      |
+| 2                | `Số lượng:` / `12` group metadata                                                      |
 | 3                | `Giờ`, `Loại hoạt động`, `Địa điểm`, `Ghi chú` headers                                 |
 | 4, 8, 16, 26, 37 | Day headings: Thursday 29/10/2026 through Monday 02/11/2026                            |
 | Intervening rows | Activity rows and blank separators, with multiline place/transport/accommodation cells |
