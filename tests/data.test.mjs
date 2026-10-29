@@ -15,22 +15,31 @@ test("real worksheet preserves day boundaries, row order, multiline cells and mi
   assert.equal(result.itinerary.at(-1).date, "2026-11-02");
   assert.deepEqual(
     result.itinerary.map((day) => day.activities.length),
-    [2, 6, 8, 8, 4],
+    [2, 6, 8, 11, 4],
   );
   const bus = result.itinerary[0].activities[1];
   assert.equal(bus.time, null);
   assert.match(bus.place, /395 Kinh Dương Vương/);
   assert.match(bus.place, /23:30/);
+  assert.match(bus.place, /Trọng Minh Limousine/);
   assert.match(bus.note, /Joanathan/);
   assert.equal(
     result.issues.filter((issue) => issue.type === "empty-slot").length,
-    1,
+    0,
   );
   const costActivity = result.itinerary[2].activities.find(
     (activity) => activity.cost,
   );
   assert.equal(costActivity.cost.amount, 250000);
   assert.equal(costActivity.cost.currency, null);
+  assert.equal(result.itinerary[2].activities[6].time, null);
+  assert.equal(result.itinerary[3].activities[5].title, "Check out");
+  assert.equal(result.itinerary[3].activities[5].time, "12:00");
+  assert.match(result.itinerary[3].activities[7].place, /LeKiMa Homestay/);
+  assert.equal(result.itinerary[3].activities[7].time, "14:00");
+  assert.equal(result.itinerary[4].activities[1].time, "09:00");
+  assert.equal(result.itinerary[4].activities[3].time, "14:00");
+  assert.equal(result.locations.find((location) => location.name === "Canelés Dalat - since 2020").type, "food");
   assert.equal(
     result.locations.find((location) => location.type === "accommodation")
       .address,
@@ -70,6 +79,10 @@ test("bundled map, gallery, trip and design records keep valid source references
   assert.equal(trip.startDate, days[0].date);
   assert.equal(trip.endDate, days.at(-1).date);
   assert.equal(trip.travelers, 11);
+  assert.equal(trip.accommodations.length, 2);
+  assert.equal(trip.accommodations[0].checkOut, "2026-11-01T12:00:00+07:00");
+  assert.equal(trip.accommodations[1].name, "LeKiMa Homestay");
+  assert.equal(trip.accommodations[1].checkIn, "2026-11-01T14:00:00+07:00");
   const locationIds = new Set(locations.map((location) => location.id));
   const dayIds = new Set(days.map((day) => day.id));
   assert.equal(locationIds.size, locations.length);

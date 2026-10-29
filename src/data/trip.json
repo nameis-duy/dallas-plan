@@ -11,11 +11,18 @@
   "travelers": 11,
   "timezone": "Asia/Ho_Chi_Minh",
   "introduction": "Từ Sài Gòn lên Đà Lạt. Những buổi cà phê thong thả, một sáng săn mây trên đồi Đa Phú, và thời gian bên nhau.",
-  "accommodation": {
-    "name": "Villa C39 An Sơn Đà Lạt",
-    "checkIn": "2026-10-30T06:00:00+07:00",
-    "checkOut": "2026-11-02T12:00:00+07:00",
-    "sourceDuration": "4N3Đ",
-    "locationId": "location-day-2026-10-30-activity-01"
-  }
+  "accommodations": [
+    {
+      "name": "Villa C39 An Sơn Đà Lạt",
+      "checkIn": "2026-10-30T06:00:00+07:00",
+      "checkOut": "2026-11-01T12:00:00+07:00",
+      "locationId": "location-day-2026-10-30-activity-01"
+    },
+    {
+      "name": "LeKiMa Homestay",
+      "checkIn": "2026-11-01T14:00:00+07:00",
+      "checkOut": "2026-11-02T12:00:00+07:00",
+      "locationId": "location-day-2026-11-01-activity-08"
+    }
+  ]
 }

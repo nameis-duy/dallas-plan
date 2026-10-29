@@ -120,6 +120,14 @@
 			"command": "C:\\Progra~1\\nodejs\\node.exe C:\\Progra~1\\nodejs\\node_modules\\npm\\bin\\npm-cli.js exec --yes --package=prettier -- prettier --write src/App.jsx src/components/TripMap.jsx src/index.css tests playwright.config.js package.json README.md MIGRATION.md DESIGN.md .impeccable/design.json",
 			"isBackground": false,
 			"problemMatcher": []
+		},
+		{
+			"label": "Verify refreshed itinerary 2026-10-29",
+			"type": "shell",
+			"command": "& C:\\Progra~1\\nodejs\\node.exe node_modules/vite/bin/vite.js build; if ($LASTEXITCODE -eq 0) { & C:\\Progra~1\\nodejs\\node.exe --test tests/data.test.mjs tests/packing.test.mjs }; if ($LASTEXITCODE -eq 0) { & C:\\Progra~1\\nodejs\\node.exe node_modules/@playwright/test/cli.js test }",
+			"isBackground": false,
+			"problemMatcher": [],
+			"group": "test"
 		}
 	]
 }

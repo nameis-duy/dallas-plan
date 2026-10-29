@@ -23,7 +23,7 @@ import photos from "./data/gallery.json";
 import Itinerary from "./components/Itinerary.jsx";
 import Gallery from "./components/Gallery.jsx";
 import PackingChecklist from "./components/PackingChecklist.jsx";
-import { assetUrl, navigationUrl } from "./utils/travel.js";
+import { assetUrl, formatDate, navigationUrl } from "./utils/travel.js";
 
 const TripMap = lazy(() => import("./components/TripMap.jsx"));
 const locations = sourceLocations.map((location) => ({
@@ -308,15 +308,19 @@ export default function App() {
             <div>
               <Users size={21} />
               <span>
-                <strong>11 người bạn</strong>
+                <strong>12 người bạn</strong>
                 <small>Cùng một chuyến đi</small>
               </span>
             </div>
             <div>
               <House size={21} />
               <span>
-                <strong>Villa C39 An Sơn</strong>
-                <small>30.10, 06:00 → 02.11, 12:00</small>
+                {trip.accommodations.map((stay) => (
+                  <span className="block" key={stay.locationId}>
+                    <strong>{stay.name}</strong>
+                    <small>{formatDate(stay.checkIn.slice(0, 10))}, {stay.checkIn.slice(11, 16)} → {formatDate(stay.checkOut.slice(0, 10))}, {stay.checkOut.slice(11, 16)}</small>
+                  </span>
+                ))}
               </span>
             </div>
           </div>

@@ -30,19 +30,19 @@ const dayStories = {
   ],
   "2026-11-01": [
     "Hẹn với bình minh.",
-    "Dậy sớm săn mây trên đồi Đa Phú, rồi ghé những quán quen trong kế hoạch.",
+    "Săn mây trên đồi Đa Phú, ghé cà phê rồi chuyển từ Villa C39 sang LeKiMa Homestay.",
   ],
   "2026-11-02": [
     "Thêm một ly cà phê.",
-    "Ngủ nướng, ghé Đậm Cafe, trả phòng và về nhà.",
+    "Ngủ nướng, ghé Đậm Cafe lúc 09:00, trả phòng LeKiMa và về nhà lúc 14:00.",
   ],
 };
 
 function activityIcon(title) {
-  if (/Cà phê|Cocktail/.test(title)) return Coffee;
-  if (/Ăn|Nhậu|Mua bánh/.test(title)) return Utensils;
-  if (/Check|ngủ|Nghỉ/i.test(title)) return BedDouble;
-  if (/di chuyển|Limousine/.test(title)) return Bus;
+  if (/Cà phê|Cocktail|Coffee/i.test(title)) return Coffee;
+  if (/Ăn|Nhậu|Mua bánh|Breakfast|Lunch|Dinner|Bread & Cake/i.test(title)) return Utensils;
+  if (/Check|ngủ|Nghỉ|Freetime/i.test(title)) return BedDouble;
+  if (/di chuyển|Limousine|Go Go/i.test(title)) return Bus;
   if (/mây|Ò ó o/.test(title)) return Sunrise;
   return MapPin;
 }

@@ -1,5 +1,22 @@
 # Source migration report
 
+## Current refresh: 2026-10-29
+
+The requested worksheet was retrieved again through its public CSV export. The four-column structure is unchanged. The current snapshot contains 43 parsed rows, 39 nonempty rows, five days, 31 activities, 18 location records, and 11 travelers. Day activity counts are now `[2, 6, 8, 11, 4]`.
+
+- The departure activity is now `Go Go`; the bus operator is **Trọng Minh Limousine**, still departing at 23:30 in the multiline transport description. Its separate time cell remains empty.
+- Source activity labels now include `Breakfast`, `Lunch`, `Dinner`, `Coffee`, `Bread & Cake`, `Hangout`, `Freetime`, and `Mid-night Gather`. They are preserved verbatim; food/accommodation classification and display icons support the new labels.
+- Friday's and Saturday's free-time alternatives retain their numbered multiline lists. Saturday adds an optional spa link for **Tiệm gội An Yên**. This is not treated as a confirmed booking.
+- Saturday's market/food/tower entry has no time or activity-label cell now; its place text remains one untimed activity. Cocktail venue text is now `420 / 444`, kept as alternatives without guessed addresses.
+- Sunday adds **Villa C39 checkout at 12:00**, **LeKiMa Homestay check-in at 14:00**, and a **22:00 Mid-night Gather**. The villa's old `4N3Đ` and Monday checkout notes were removed from the source and from current trip metadata.
+- Sunday has both `Freetime` and `Dinner` at **17:00**. Both are retained in source order; no scheduling conflict is silently resolved. The homestay address is retained exactly as supplied.
+- Monday's Đậm Cafe entry is now **09:00**, LeKiMa checkout/lunch is **12:00**, and the return-home activity is **14:00**.
+- Missing explicit times remain on four entries: the bus row, Saturday's market entry, Sunday's Miết Miết coffee, and Monday's sleeping-in entry. There are no empty time-only slots in the refreshed source.
+- The four existing coordinate verifications are reattached using their exact original map links, not shifted activity sequence IDs. The new spa and homestay remain link-only; 14 of 18 locations lack verified coordinates. Gallery associations are unchanged and validated.
+- Local itinerary, location, verification, trip-overview, and migration JSON records were refreshed. Packing progress, photographs, visual design, and source uncertainty are preserved.
+
+The sections below document the **initial 2026-10-27 import**, not current values. The current snapshot and `source/migration.json` take precedence over those historical counts, row references, labels, and accommodation notes.
+
 ## Evidence and scope
 
 Retrieved on 2026-10-27 from the public CSV export and public HTML view of Google spreadsheet `1DIYOGjG6-t3a_IEDMYrNogYpEVgAGu3PLOLW0qXdGR4`, worksheet `493154924` first.

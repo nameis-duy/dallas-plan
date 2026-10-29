@@ -1,28 +1,40 @@
 [
   {
     "id": "location-day-2026-11-01-activity-04",
-    "coordinates": [11.944714, 108.4379307],
+    "coordinates": [
+      11.944714,
+      108.4379307
+    ],
     "evidenceUrl": "https://maps.app.goo.gl/tMiL7gRj4HFnGKeWA",
     "resolvedUrl": "https://www.google.com/maps/place/Canel%C3%A9s+Dalat+-+since+2020/@11.944714,108.4379307,938m/data=!3m2!1e3!4b1!4m6!3m5!1s0x317113f0555de44f:0x44945780eb52023c!8m2!3d11.944714!4d108.4379307!16s%2Fg%2F11k53s16lm?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=3a47981a-e4da-4e96-bb20-37821b90183d",
     "method": "Explicit place coordinates in the source Google Maps redirect; viewport centers excluded"
   },
   {
     "id": "location-day-2026-11-01-activity-05",
-    "coordinates": [11.9213921, 108.4498867],
+    "coordinates": [
+      11.9213921,
+      108.4498867
+    ],
     "evidenceUrl": "https://maps.app.goo.gl/jcUb2Vzr1qcMGJsg8",
     "resolvedUrl": "https://www.google.com/maps/place/Mi%E1%BA%BFt+Mi%E1%BA%BFt/@11.9213921,108.4473064,938m/data=!3m2!1e3!4b1!4m6!3m5!1s0x317113001592b4b3:0x3df227cc1da31a6f!8m2!3d11.9213921!4d108.4498867!16s%2Fg%2F11wpj9vxt_?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=de9def80-b2d5-4fb8-ac20-1ab5bc2057d3",
     "method": "Explicit place coordinates in the source Google Maps redirect; viewport centers excluded"
   },
   {
-    "id": "location-day-2026-11-01-activity-06",
-    "coordinates": [11.9613986, 108.4429215],
+    "id": "location-day-2026-11-01-activity-07",
+    "coordinates": [
+      11.9613986,
+      108.4429215
+    ],
     "evidenceUrl": "https://maps.app.goo.gl/mHPjpmGCtCASiRA19",
     "resolvedUrl": "https://www.google.com/maps/place/%C4%90%C3%B4i+%C4%90%C5%A9a/@11.9613986,108.4403412,938m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3171132c23b9bf21:0xb90881a0ed131fb9!8m2!3d11.9613986!4d108.4429215!16s%2Fg%2F11wn6ldmh5?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=f4482d62-91fc-4c4d-953b-a26f9c62bbf2",
     "method": "Explicit place coordinates in the source Google Maps redirect; viewport centers excluded"
   },
   {
-    "id": "location-day-2026-11-01-activity-08",
-    "coordinates": [11.9246874, 108.453247],
+    "id": "location-day-2026-11-01-activity-10",
+    "coordinates": [
+      11.9246874,
+      108.453247
+    ],
     "evidenceUrl": "https://maps.app.goo.gl/gPJ1UVrfQAoLZy4x5",
     "resolvedUrl": "https://www.google.com/maps/place/Hap+Hap+Riverside+Kitchen/@11.9246874,108.4506667,938m/data=!3m2!1e3!4b1!4m6!3m5!1s0x3171134f26c52993:0x7a3521656825191b!8m2!3d11.9246874!4d108.453247!16s%2Fg%2F11zwz2kkxw?entry=tts&g_ep=EgoyMDI2MTAyMC4wIPu8ASoASAFQAw%3D%3D&skid=7d818115-a38b-4b8b-be54-6e605f550aee",
     "method": "Explicit place coordinates in the source Google Maps redirect; viewport centers excluded"

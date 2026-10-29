@@ -79,12 +79,15 @@ export function normalizeSheet(csv) {
           .join("\n") || null;
       locations.push({
         id: locationId,
-        name: place.split("\n")[0].replace(/\s*-\s*\d+k\s*\/\s*vé/i, ""),
+        name: (
+          place.split("\n").find((line) => line && !/:\s*$/.test(line) && !/^\d+[.)]/.test(line)) ||
+          place.split("\n").at(-1).replace(/^\d+[.)]\s*/, "")
+        ).replace(/\s*-\s*\d+k\s*\/\s*vé/i, ""),
         sourceText: place,
         address,
-        type: /Check in/.test(activity)
+        type: /Check in/i.test(activity)
           ? "accommodation"
-          : /Ăn|Mua bánh|Cà phê|Cocktail/.test(activity)
+          : /Ăn|Nhậu|Mua bánh|Cà phê|Cocktail|Breakfast|Lunch|Dinner|Coffee|Bread & Cake|Mid-night Gather/i.test(activity)
             ? "food"
             : "attraction",
         mapUrl,
@@ -159,6 +162,16 @@ async function main() {
       );
   }
   const result = normalizeSheet(csv);
+  let verifications = [];
+  try {
+    verifications = JSON.parse(await readFile("src/data/location-verifications.json", "utf8"));
+  } catch (error) {
+    if (error.code !== "ENOENT") throw error;
+  }
+  const updatedVerifications = verifications.flatMap((verification) => {
+    const location = result.locations.find((item) => item.mapUrl === verification.evidenceUrl);
+    return location ? [{ ...verification, id: location.id }] : [];
+  });
   await mkdir("src/data", { recursive: true });
   await mkdir("source", { recursive: true });
   await writeFile("source/itinerary.csv", csv);
@@ -167,6 +180,7 @@ async function main() {
       `src/data/${key}.json`,
       `${JSON.stringify(result[key], null, 2)}\n`,
     );
+  await writeFile("src/data/location-verifications.json", `${JSON.stringify(updatedVerifications, null, 2)}\n`);
   await writeFile(
     "source/migration.json",
     `${JSON.stringify({ sourceUrl, worksheetGid: "493154924", metadata: result.metadata, issues: result.issues }, null, 2)}\n`,

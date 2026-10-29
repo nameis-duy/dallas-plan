@@ -212,7 +212,7 @@ test("verified map markers and itinerary selection synchronize; unavailable tile
     .locator(".place-filters")
     .getByRole("button", { name: "Nơi ở", exact: true })
     .click();
-  await expect(page.locator(".place-list .place-item")).toHaveCount(1);
+  await expect(page.locator(".place-list .place-item")).toHaveCount(2);
 });
 
 test("map bundle failure preserves usable location links and schedule access", async ({
@@ -222,7 +222,7 @@ test("map bundle failure preserves usable location links and schedule access", a
   await page.goto("/");
   await page.locator("#map").scrollIntoViewIfNeeded();
   await expect(page.locator(".map-fallback")).toBeVisible();
-  await expect(page.locator(".map-fallback li")).toHaveCount(16);
+  await expect(page.locator(".map-fallback li")).toHaveCount(18);
   await expect(page.locator(".map-fallback a").first()).toHaveAttribute(
     "href",
     /^https:\/\//,

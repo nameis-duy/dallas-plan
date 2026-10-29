@@ -10,9 +10,9 @@
       "Địa điểm",
       "Ghi chú"
     ],
-    "populatedRows": 37,
-    "totalRows": 41,
-    "activityCount": 28
+    "populatedRows": 39,
+    "totalRows": 43,
+    "activityCount": 31
   },
   "issues": [
     {
@@ -22,38 +22,21 @@
       "message": "No time supplied; original position preserved."
     },
     {
+      "row": 23,
+      "type": "missing-time",
+      "activityId": "day-2026-10-31-activity-07",
+      "message": "No time supplied; original position preserved."
+    },
+    {
       "row": 31,
       "type": "missing-time",
       "activityId": "day-2026-11-01-activity-05",
       "message": "No time supplied; original position preserved."
     },
     {
-      "row": 35,
-      "type": "empty-slot",
-      "source": [
-        "22h",
-        "",
-        "",
-        ""
-      ],
-      "message": "Time-only slot retained here, not rendered as a fabricated activity."
-    },
-    {
-      "row": 38,
+      "row": 40,
       "type": "missing-time",
       "activityId": "day-2026-11-02-activity-01",
-      "message": "No time supplied; original position preserved."
-    },
-    {
-      "row": 39,
-      "type": "missing-time",
-      "activityId": "day-2026-11-02-activity-02",
-      "message": "No time supplied; original position preserved."
-    },
-    {
-      "row": 41,
-      "type": "missing-time",
-      "activityId": "day-2026-11-02-activity-04",
       "message": "No time supplied; original position preserved."
     }
   ]

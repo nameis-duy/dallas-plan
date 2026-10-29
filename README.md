@@ -23,7 +23,7 @@ Production files are generated in `dist/`. Serve that directory over HTTP; openi
 ## What is included
 
 - Full-width destination cover, actual dates, group size, accommodation, and trip overview.
-- Five selectable days and 28 expandable, source-ordered activities.
+- Five selectable days and 31 expandable, source-ordered activities, refreshed from the worksheet on 2026-10-29.
 - Lazy-loaded Leaflet map, place-type filters, original map links, four verified markers, and bidirectional schedule selection.
 - Five local illustrative destination photographs, credits/licenses, and a lightbox with keyboard, swipe, focus containment, and focus restoration.
 - Suggested categorized packing list, custom additions/deletions, progress, confirmed reset, and versioned browser-local persistence with corrupt/blocked storage handling.
@@ -117,4 +117,4 @@ Before publishing, review all source notes, traveler names, dates, accommodation
 
 ## Remaining source limitations
 
-Twelve locations lack verified coordinates. Five activity rows have no explicit time. The Sunday `22h` slot is empty and deliberately omitted as an activity. The only source ticket price is `250k / vé` with no explicit currency, so no overall budget is fabricated. See `MIGRATION.md` for the full uncertainty record.
+Fourteen of eighteen locations lack verified coordinates, including the newly added spa and LeKiMa Homestay. Four activity rows have no explicit time. Sunday has two separate `17h` entries, preserved in source order; its `22h` gathering is now a real activity. The only source ticket price is `250k / vé` with no explicit currency, so no overall budget is fabricated. See `MIGRATION.md` for the full uncertainty record.
