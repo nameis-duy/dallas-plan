@@ -101,6 +101,6 @@ The other twelve location records remain unverified and have no precise markers.
 
 ## Verification
 
-- Importer tests check five dates, counts `[2, 6, 8, 8, 4]`, 11 travelers, bus multiline details, preserved notes, missing bus time, the empty slot, ticket amount/unspecified currency, conservative addresses, unique associations, and rejection of unrelated CSV headers.
+- Importer tests check five dates, counts `[2, 6, 8, 8, 4]`, 12 travelers, bus multiline details, preserved notes, missing bus time, the empty slot, ticket amount/unspecified currency, conservative addresses, unique associations, and rejection of unrelated CSV headers.
 - Production browser tests compare every day's displayed activity titles to the normalized source order, expand/collapse details, check source ticket wording, and verify itinerary/map synchronization and fallback access.
 - Remaining manual review: personal photo replacement, unresolved times and location coordinates, current ticket price/currency, source inconsistencies above, privacy before publishing, and testing on physical devices/Safari.
